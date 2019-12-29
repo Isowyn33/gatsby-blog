@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://api-chaventures.herokuapp.com/`,
+        apiURL: `https://api-chaventures.herokuapp.com`,
         contentTypes: [ // List of the Content Types you want to be able to request from Gatsby.
           `article`,
           `user`
